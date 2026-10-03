@@ -1,0 +1,64 @@
+{
+  "accuracy": 0.9634920634920635,
+  "precision": 0.8725490196078431,
+  "recall": 0.898989898989899,
+  "f1": 0.8855721393034826,
+  "roc_auc": 0.9871026650687668,
+  "confusion_matrix": [
+    [
+      518,
+      13
+    ],
+    [
+      10,
+      89
+    ]
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.9810606060606061,
+      "recall": 0.975517890772128,
+      "f1-score": 0.9782813975448537,
+      "support": 531.0
+    },
+    "1": {
+      "precision": 0.8725490196078431,
+      "recall": 0.898989898989899,
+      "f1-score": 0.8855721393034826,
+      "support": 99.0
+    },
+    "accuracy": 0.9634920634920635,
+    "macro avg": {
+      "precision": 0.9268048128342246,
+      "recall": 0.9372538948810135,
+      "f1-score": 0.9319267684241681,
+      "support": 630.0
+    },
+    "weighted avg": {
+      "precision": 0.9640087853323148,
+      "recall": 0.9634920634920635,
+      "f1-score": 0.9637127998212095,
+      "support": 630.0
+    }
+  },
+  "train_rows": 2520,
+  "test_rows": 630,
+  "churn_rate": 0.15714285714285714,
+  "excluded_features": [
+    "Status"
+  ],
+  "permutation_importance": {
+    "Frequency of use": 0.2445323293915192,
+    "Seconds of Use": 0.21479240490441506,
+    "Complains": 0.1323524848968121,
+    "Customer Value": 0.13139778159448787,
+    "Distinct Called Numbers": 0.10612190544760872,
+    "Call Failure": 0.07914492372424749,
+    "Subscription Length": 0.06986065837603303,
+    "Frequency of SMS": 0.05397420312885359,
+    "Age Group": 0.049756557427100986,
+    "Age": 0.04369201411930472,
+    "Charge Amount": 0.03722365000256247,
+    "Tariff Plan": -0.0008855721393034921
+  }
+}
